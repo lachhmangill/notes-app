@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --gray: #6b7280;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+}
+.navbar {
+  background-color: black;
+}
+.navbar-brand {
+  color: white;
+}
+#addBtn:hover {
+  /* background-color: rgb(250, 135, 240); */
+  background-image: linear-gradient(to right, var(--pink), var(--purple));
+}
